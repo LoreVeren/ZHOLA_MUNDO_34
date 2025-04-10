@@ -1,0 +1,33 @@
+@Metadata.layer: #CORE
+annotate entity ZCDS_ZCONCE_34
+    with 
+{
+//como el catalogo, 10 porque es para dejar un margen
+@UI.selectionField: [{ position: 10 }] //HABILITAMOS CAMPOS ARRIBA
+@UI.lineItem: [{ position: 10, label: 'ID Concesionario' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+@UI.hidden: true //OCULTAR CAMPO
+@UI.identification: [{ position: 10 }]
+IdConcesionario;
+
+@UI.selectionField: [{ position: 20 }] //HABILITAMOS CAMPOS ARRIBA
+@UI.lineItem: [{ position: 20, label: 'Nombre Concesionario' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+@UI.identification: [{ position: 20 }]
+NombreConcesionario;
+
+@UI.selectionField: [{ position: 30 }] //HABILITAMOS CAMPOS ARRIBA
+@UI.lineItem: [{ position: 30, label: 'Localidad' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+Localidad;
+
+@UI.selectionField: [{ position: 40 }] //HABILITAMOS CAMPOS ARRIBA
+@UI.lineItem: [{ position: 40, label: 'Provincia' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+Provincia;
+
+@UI.lineItem: [{ position: 50, label: 'Código Postal' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+CodPostal;
+
+@UI.lineItem: [{ position: 60, label: 'Telefono' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+Telefono;
+
+@UI.lineItem: [{ position: 70, label: 'Email' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+Email;
+}

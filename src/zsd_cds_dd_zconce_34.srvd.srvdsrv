@@ -1,0 +1,4 @@
+@EndUserText.label: 'asdasdasda'
+define service Zsd_cds_dd_zconce_34 {
+  expose ZCDS_ZCONCE_34;
+}

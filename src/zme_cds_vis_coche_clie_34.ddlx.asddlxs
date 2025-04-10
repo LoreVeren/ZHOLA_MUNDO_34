@@ -1,0 +1,26 @@
+@Metadata.layer: #CORE
+annotate entity ZCDS_DD_VIS_ZCLIENTE_ZCOCHE_34
+    with 
+//        key cliente.id_cliente as IdCliente,
+//    key coche.id_coche as IdCoche,
+//    cliente.nombre_cliente as NombreCliente,
+//    coche.bastidor as Bastidor  
+{
+    @UI.selectionField: [{ position: 10 }] //HABILITAMOS CAMPOS ARRIBA
+@UI.lineItem: [{ position: 10, label: 'ID Cliente' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+@UI.identification: [{ position: 10 }]
+IdCliente;
+    
+        @UI.selectionField: [{ position: 20 }] //HABILITAMOS CAMPOS ARRIBA
+@UI.lineItem: [{ position: 20, label: 'ID Coche' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+@UI.identification: [{ position: 20 }]
+IdCoche;
+
+@UI.lineItem: [{ position: 30, label: 'Nombre' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+@UI.identification: [{ position: 30 }]
+NombreCliente;
+     
+@UI.lineItem: [{ position: 40, label: 'Bastidor' }] //COLUMNA QUE QUEREMOS QUE VAYA ESE CAMPO
+@UI.identification: [{ position: 40 }]
+Bastidor;
+}

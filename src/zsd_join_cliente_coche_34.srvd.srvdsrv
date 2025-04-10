@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service'
+define service Zsd_join_cliente_coche_34 {
+  expose ZCDS_DD_VIS_ZCLIENTE_ZCOCHE_34;
+}
